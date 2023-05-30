@@ -1,0 +1,45 @@
+/* inspired form gumroad website */
+button {
+  --bg: #3d05f4;
+  box-shadow: 2px 2px 2px  2px black;
+  --hover-bg: #ff90e8;
+  --hover-text: #000;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 3vh;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+  border-color: #f80a0a;
+  height: 30%;
+  width: 30%;
+  font-size: 20px;
+
+}
+
+button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+body{
+  text-align: center;
+  background-color: #f4ecec;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+h1{
+background-color: #ffffff;
+height:73px;
+width:20%;
+border-radius: 2vh;
+box-shadow: 2px 2px 10px 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
